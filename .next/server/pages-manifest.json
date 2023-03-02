@@ -3,6 +3,7 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/list": "pages/list.js",
-  "/about": "pages/about.js"
+  "/staticSideGenerator": "pages/staticSideGenerator.js",
+  "/clientSideRenderingExample": "pages/clientSideRenderingExample.js",
+  "/serverSideRenderingExample": "pages/serverSideRenderingExample.js"
 }

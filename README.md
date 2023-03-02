@@ -36,11 +36,14 @@ npm run dev
 ```
 
 ### Routing (Client Side Rendering)
-
- First we are trying with client side rendering  for that we are using useEffect method
- we we look the list.js file, we are using fetch api to get 100 items displying on page link to go this page is added in home page as list page
+We are initially attempting client-side rendering using the useEffect method. If we take a look at the list.js file, we are using the Fetch API to retrieve and display a list of 100 items on a page. Additionally, a link to the list page has been added to the home page.
 
 ### Routing (Server Side Rendering)
+To use server-side rendering with Next.js, we can replace the useEffect hook and the fetch function with the getServerSideProps function, which is a built-in method in Next.js that runs on the server-side and fetches the data before the component is rendered. a link to the list page has been added to the home page.
+
+### Static Side Generator (Static Side Generator )
+getStaticProps is another special function in Next.js that runs at build time (during the build process) to fetch data and pre-render pages. The pages that are pre-rendered this way are called statically generated pages. a link to the list page has been added to the home page.
+
 
 
 

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 
-const List = () => {
+const ClientSideRenderingExample = () => {
     const [items, setItem] = useState([]);
 
     useEffect(() => {
@@ -32,7 +32,7 @@ const List = () => {
   );
 };
 
-export default List;
+export default ClientSideRenderingExample;
 
 
 

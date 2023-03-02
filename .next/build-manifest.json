@@ -30,15 +30,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/about": [
+    "/clientSideRenderingExample": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/about.js"
+      "static/chunks/pages/clientSideRenderingExample.js"
     ],
-    "/list": [
+    "/serverSideRenderingExample": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/list.js"
+      "static/chunks/pages/serverSideRenderingExample.js"
+    ],
+    "/staticSideGenerator": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/staticSideGenerator.js"
     ]
   },
   "ampFirstPages": []
