@@ -44,6 +44,28 @@ To use server-side rendering with Next.js, we can replace the useEffect hook and
 ### Static Side Generator (Static Side Generator )
 getStaticProps is another special function in Next.js that runs at build time (during the build process) to fetch data and pre-render pages. The pages that are pre-rendered this way are called statically generated pages. a link to the list page has been added to the home page.
 
+### Add styles
+To add styles to your home page in Next.js, you can use CSS modules or a global stylesheet.
+
+#### CSS modules 
+First, create a file called styles.module.css in the styles folder in your Next.js project. This file should contain the styles for your home page
+
+#### global stylesheet
+First, create a file called global.css in the styles folder in your Next.js project. This file should contain the global styles for your app:
+ create _app.js file to support global styles.. just import global styles it will automatically effects all your child apps
+
+ ```js
+ import '../styles/global.css';
+import React from 'react';
+
+import App from 'next/app'
+
+function MyApp({ Component, pageProps }) {
+  return <App Component={Component} pageProps={pageProps} />
+}
+
+export default MyApp
+```
 
 
 

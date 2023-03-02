@@ -1,10 +1,12 @@
 import React from 'react';
 import Link from 'next/link';
+import styles from "../styles/styles.module.css"
 
 const Home = () => {
   return (
     <div>
-      <h1>Welcome to my Next.js app!</h1>
+         <h1 className={styles.heading}>Welcome to my Next.js app</h1>
+      <p className={styles.paragraph}>This is the home page.</p>
       <Link href="/about">
         About Page
       </Link>

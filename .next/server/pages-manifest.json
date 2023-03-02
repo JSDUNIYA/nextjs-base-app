@@ -1,9 +1,9 @@
 {
   "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/_error": "pages/_error.js",
   "/": "pages/index.js",
-  "/staticSideGenerator": "pages/staticSideGenerator.js",
   "/clientSideRenderingExample": "pages/clientSideRenderingExample.js",
-  "/serverSideRenderingExample": "pages/serverSideRenderingExample.js"
+  "/serverSideRenderingExample": "pages/serverSideRenderingExample.js",
+  "/staticSideGenerator": "pages/staticSideGenerator.js"
 }
