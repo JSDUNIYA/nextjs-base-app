@@ -35,8 +35,12 @@ export default Home;
 npm run dev
 ```
 
-### Routing
+### Routing (Client Side Rendering)
 
-Add more files inside pages folder with name of file ex : about.js to run this file url should be localhost:3001/about/
+ First we are trying with client side rendering  for that we are using useEffect method
+ we we look the list.js file, we are using fetch api to get 100 items displying on page link to go this page is added in home page as list page
+
+### Routing (Server Side Rendering)
+
 
 
