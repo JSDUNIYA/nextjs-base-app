@@ -2,9 +2,13 @@
 
 ## Create simple nextjs app
 
-### npm init -y & npm install react & react-dom next
+### Step one
 
-### create page in path pages/index.js
+```console
+npm init -y & npm install react & react-dom next
+```
+
+### Create page in path pages/index.js
 
 ```js
 import React from 'react';
@@ -20,13 +24,19 @@ const Home = () => {
 export default Home;
 ```
 
-### next js will add it's own server so in your package-json file add this in script section
+### Next js will add it's own server so in your package-json file add this in script section
 
 ```js
 "dev": "PORT=3001 next dev"
 ```
-### to run application
+### To run application
 
 ```console
 npm run dev
 ```
+
+### Routing
+
+Add more files inside pages folder with name of file ex : about.js to run this file url should be localhost:3001/about/
+
+
